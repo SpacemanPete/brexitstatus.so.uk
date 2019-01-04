@@ -18,6 +18,11 @@ main .container {
   padding: 10vh 20px;
   background-color: gray;
 }
+@media only screen and (max-width: 450px) {
+  main .container {
+    padding-top: 2vh;
+  }
+} /* end media breakpoint @ 450px */
 
 #check-status {
   position: relative;
@@ -29,11 +34,21 @@ main .container {
   border-radius: 5px;
   border: none;
 }
+@media only screen and (max-width: 450px) {
+  #check-status {
+    margin-top: 10px;
+  }
+} /* end media breakpoint @ 450px */
 
 #status-panel {
   margin-top: 5vh;
   min-height: 250px;
 }
+@media only screen and (max-width: 450px) {
+  #status-panel {
+    margin-top: 2vh;
+  }
+} /* end media breakpoint @ 450px */
 
 #status {
   display: none;
